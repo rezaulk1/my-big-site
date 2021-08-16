@@ -2,7 +2,7 @@ body
 {
     background-image: url("pic/new3.png");
     background-repeat: no-repeat;
-    background-size: 120%;
+    background-size: 130%;
     margin: 0;   
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
@@ -84,3 +84,27 @@ body
         text-align: center;
         color: rgb(6, 189, 196);
     }
+  .new-box {
+      margin-left: 35%;
+      background-color: green;
+      width: 40%;
+      box-shadow: 10px 10px 30px rgb(15, 15, 15);
+      background-image: linear-gradient(180deg, rgb(26, 219, 26), rgb(110, 110, 235) );
+     
+
+
+  }
+  #border-left{
+    border-left: 7px solid;
+    border-right: 7px solid;
+    border-image: linear-gradient(rgb(250, 70, 70), rgb(48, 218, 241));
+    border-image-slice: 2;
+
+  }
+  .new-box h1{
+      padding: 2%;
+  }
+  .text-line{
+    text-decoration-line: none;
+    
+  }
