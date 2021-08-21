@@ -2,7 +2,7 @@ body
 {
     background-image: url("pic/new3.png");
     background-repeat: no-repeat;
-    background-size: 100% 290vh;
+    background-size: 1366px 290vh;
     margin: 0;   
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
@@ -78,8 +78,8 @@ body
         text-decoration-line: none;
 }
  .parent{
-     width: 100vw;
-     height: 28vh;
+     width: 1366px;
+     height: 178px;
      
      position: relative;
  }
