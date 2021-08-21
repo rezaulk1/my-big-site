@@ -2,9 +2,11 @@ body
 {
     background-image: url("pic/new3.png");
     background-repeat: no-repeat;
-    background-size: 140%;
+    background-size: 110% 270%;
     margin: 0;   
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
     }
     h1{
         font-size: 50px;
@@ -52,7 +54,7 @@ body
  
     }
     section{
-        width: 1366px;
+        width: 100%;
         height: 500px;
     }
 .visit:visited{
@@ -74,37 +76,45 @@ body
         color: rgb(30, 14, 253);
         font-weight: bold;
         text-decoration-line: none;
-
-        
-    }
-    footer p{
-        text-align: center;
-    }
-    .expart{
-        text-align: center;
-        color: rgb(6, 189, 196);
-    }
-  .new-box {
-      margin-left: 35%;
-      background-color: green;
-      width: 40%;
-      box-shadow: 10px 10px 30px rgb(15, 15, 15);
-      background-image: linear-gradient(180deg, rgb(26, 219, 26), rgb(110, 110, 235) );
+}
+ .parent{
+     width: 100vw;
+     height: 28vh;
      
+     position: relative;
+ }
+.child{
 
-
-  }
-  #border-left{
-    border-left: 7px solid;
-    border-right: 7px solid;
-    border-image: linear-gradient(rgb(250, 70, 70), rgb(48, 218, 241));
-    border-image-slice: 2;
-
-  }
-  .new-box h1{
-      padding: 2%;
-  }
-  .text-line{
-    text-decoration-line: none;
+    width: 600px;
+    height: 157px;
     
-  }
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+
+
+}
+
+
+body main{
+    position: absolute;
+    text-align: center;
+}  
+.new-box{
+    box-shadow: 10px 10px 30px gray;
+    background: linear-gradient(rgb(213, 116, 252), rgb(39, 255, 39));
+    color: blue;
+    border-radius: 10px;
+}
+#box-border{
+    border-left:5px solid;
+    border-right: 5px solid;
+    border-image: linear-gradient(rgb(61, 253, 87), rgb(243, 80, 16));
+    border-image-slice: 1;
+
+}
+
+ 
+
