@@ -54,7 +54,7 @@ body
  
     }
     section{
-        width: 100%;
+        width: 100vw;
         height: 500px;
     }
 .visit:visited{
@@ -78,7 +78,7 @@ body
         text-decoration-line: none;
 }
  .parent{
-     width: 1366px;
+     width: 100vw;
      height: 178px;
      
      position: relative;
